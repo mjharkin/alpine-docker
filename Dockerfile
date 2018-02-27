@@ -1,6 +1,6 @@
 ARG ALPINE_VER=3.7
 FROM alpine:$ALPINE_VER
-MAINTAINER Mark Harkin <mjha@nationalbanken.dk>
+MAINTAINER Mark Harkin
 
 ARG DOCKER_VER=17.09.0-ce
 ENV DOCKER_CHANNEL stable
